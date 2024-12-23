@@ -5,7 +5,7 @@ import React, { useState, useEffect } from 'react';
 import Cards from '../components/Cards';
 import { Student } from '../types';
 import json_data from '../public/mock_data/students.json'; // Replace with mock data
-import user_data from '../public/mock_data/user.json'; // Replace with user data
+// import user_data from '../public/mock_data/user.json'; // Replace with user data
 
 const Home: React.FC = () => {
   const [filteredData, setFilteredData] = useState(json_data);
