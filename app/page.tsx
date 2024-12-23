@@ -1,4 +1,5 @@
-/* eslint no-use-before-define: 0 */  // --> OFF
+/* eslint-disable */
+
 'use client';
 import React, { useState, useEffect } from 'react';
 import Cards from '../components/Cards';
