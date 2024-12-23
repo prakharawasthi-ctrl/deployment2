@@ -40,9 +40,9 @@ const Home: React.FC = () => {
             <th>Class</th>
           </tr>
         </thead>
-        <tbody>
-          {filteredData.map((student, index) => (
-            <Cards key={index} prop={student} />
+       <tbody>
+          {filteredDataWithId.map((student) => (
+            <Cards key={student.id} prop={student} />  // Use 'student.id' as the key
           ))}
         </tbody>
       </table>
